@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+.conta{
+    display: flex;
+    justify-content: end;
+    width: 150px;
+    gap: 3px;
+}
+
+
+header{
+    width: 100%;
+    margin-bottom: 8px;
+    background-color: aquamarine;
+    padding-bottom: 10px;
+}
+.minhaconta{
+    min-width: 85px;
+}
+.name{
+    height: 30px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0 0 5px black;
+    
+}
+.imagem{
+    width: 30px;
+    height: 30px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+ul#opcoes li{
+    display: inline;
+}
+.logo{
+    width: 80px;
+
+}
