@@ -35,10 +35,6 @@ header{
     box-shadow: 0 0 5px black;
     
 }
-.imagem{
-    width: 30px;
-    height: 30px;
-}
 
 .menu ul{
     display: flex;
@@ -53,4 +49,143 @@ ul#opcoes li{
 .logo{
     width: 80px;
 
+}
+ul li{
+    list-style: none;
+}
+html{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+main{
+    display: flex;
+    margin: 0;
+    
+}
+
+aside{
+    padding-left: 2rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    background-color: #386C5F;
+    color: #fff;
+    
+
+}
+.menu-main ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+
+
+}
+
+.menu-main ul .link_menu {
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+
+
+.categoria{
+    margin-bottom: 1rem;
+    
+
+}
+.book_compra{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+section .gallery{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    
+
+}
+.gallery > div {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    width: 10rem;
+    justify-items: center;
+    align-items: center;
+    background-size: auto;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 1rem;
+   
+}
+.gallery > .catalogo_produtos{
+    background-color: #ffffff;
+    box-shadow: 0 0 5px black;
+    
+    
+}
+.gallery > div> img{
+    display: flex;
+    width: 8rem; 
+    border-radius: 0.5rem;  
+    object-fit: cover; 
+}
+.gallery{
+    margin-top: 2rem;
+    
+    gap: 4rem ;
+}
+
+.button{
+    background: #69E0AE; 
+    width: 120px;
+    border-radius: 16px;
+    border: #69E0AE;
+    padding: 8px; 
+    box-shadow: 0 0 5px black
+
+
+   
+
+}
+.filtro{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    padding: 2rem;   
+    background-color: #386C5F;
+  
+}
+.filtro .resultado{
+    margin-left: 1rem;
+    color: #ffffff;
+}
+.filtro #sort-by{
+    margin-right: 1rem;
+}
+
+ul.style_litst {
+    display: flex;
+    margin-bottom: 2rem;
+    text-decoration:none;
+    
+}
+a:link{
+    text-decoration:none;
+    color: inherit
 }
